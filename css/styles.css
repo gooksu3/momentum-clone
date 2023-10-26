@@ -1,0 +1,107 @@
+.hidden{
+    display: none;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background-img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    z-index: -1;
+}
+#login-form{
+    border:1px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.login-form__display{
+    display:flex;
+    align-items: center;
+}
+#login-form input{
+    width:35vw;
+    height:5vh;
+    border:1px solid white;
+    border-radius: 15px;
+    font-size:3vh;
+    margin:5px 5px;
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+}
+#login-form input::placeholder{
+    color:rgba(255,255,255,0.5);
+}
+#login-form button{
+    width:100px;
+    height:5vh;
+    font-size:2.7vh;
+    border:none;
+    border-radius: 15px;
+    background-color: tomato;
+    margin:5px 5px;
+}
+#login-form button:active{
+    background-color: rgb(255, 153, 135);
+    color:rgba(0,0,0,0.4);
+}
+#clock{
+    font-size:10vh;
+    font-weight:600;
+    color:white;
+    text-shadow: -1px 0px rgb(25, 25, 25), 0px 1px rgb(25, 25, 25), 1px 0px rgb(25, 25, 25), 0px -1px rgb(25, 25, 25);
+}
+#greeting{
+    font-size:5vh;
+    font-weight:600;
+    color:white;
+    text-shadow: -1px 0px rgb(25, 25, 25), 0px 1px rgb(25, 25, 25), 1px 0px rgb(25, 25, 25), 0px -1px rgb(25, 25, 25);
+    padding:10px;
+}
+#todo-form input{
+    width:46vw;
+    height:5vh;
+    border:2px solid white;
+    border-radius: 15px;
+    font-size:2.5vh;
+    margin:5px 5px;
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+}
+#todo-form input::placeholder{
+    color:rgba(255,255,255,0.5);
+}
+#quote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    font-size:3vh;
+    color:white;
+    text-shadow: -1px 0px rgb(25, 25, 25), 0px 1px rgb(25, 25, 25), 1px 0px rgb(25, 25, 25), 0px -1px rgb(25, 25, 25);
+}
+#quote{
+    padding:15px;
+}
+.toDo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.toDo span{
+    color:white;
+    font-size: 6vh;
+    padding:10px;
+}
+.toDo button{
+    background-color:rgba(0,0,0,0.1);
+    border:2px solid white;
+    color:white;
+    font-size: 2.5vh;
+}
